@@ -8,12 +8,12 @@ const __dirname = path.dirname(__filename);
 export const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 export const rpcUrl = 'https://octra.network';
 
-export const privateKeys = fs.readFileSync(path.join(__dirname, "..privatekey.txt"), "utf-8")
+export const privateKeys = fs.readFileSync(path.join(__dirname, "../privatekey.txt"), "utf-8")
   .split("\n")
   .map(k => k.trim())
   .filter(k => k.length > 0);
 
-export const Recepient = fs.readFileSync(path.join(__dirname, "..recepient.txt"), "utf-8")
+export const Recepient = fs.readFileSync(path.join(__dirname, "../recepient.txt"), "utf-8")
   .split("\n")
   .map(k => k.trim())
   .filter(k => k.length > 0);
