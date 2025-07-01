@@ -2,9 +2,9 @@
 
 ![octraaaa](https://github.com/user-attachments/assets/69f8ec47-5c5d-48bd-9730-c222c47b8ae8)
 
-### [Wallet](https://github.com/octra-labs/wallet-gen)
+### [Create Wallet](https://github.com/octra-labs/wallet-gen)
 
-### [Link Faucet 0g](https://faucet.octra.network/)
+### [Link Faucet OCT](https://faucet.octra.network/)
 
 
 ## Fitur Autobot
